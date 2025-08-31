@@ -1,18 +1,23 @@
 # 🎓 Student Score Predictor
 
-📊 A simple Machine Learning web app that predicts student exam scores based on **study hours**.  
-Built using **Scikit-learn (Linear Regression)** and deployed with **Streamlit Cloud**.  
-
-👉 [Live Demo](https://student-score-predictor-vansh-g-hash.streamlit.app)  
+A simple ML app that predicts student exam scores based on study hours using **Linear Regression**.
 
 ## 🚀 Features
-- Predict student scores from input study hours
-- Clean ML pipeline with regression model
-- Interactive web app built in Streamlit
-- Lightweight, beginner-friendly ML project
+- Enter study hours → predict score
+- ML model trained on dataset
+- Streamlit web app for demo
 
 ## 🛠️ Tech Stack
-- Python
-- Pandas, Scikit-learn
+- Python, Pandas, Scikit-learn
 - Streamlit
 - Joblib (for model persistence)
+
+## ▶️ Run Locally
+```bash
+pip install -r requirements.txt
+python model.py   # Train & save model
+streamlit run app.py
+```
+
+## 🌐 Deployment
+Deploy easily on [Streamlit Cloud](https://streamlit.io/cloud).
