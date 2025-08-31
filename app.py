@@ -17,5 +17,5 @@ if st.button("Predict Score"):
 
 # Show example dataset
 st.subheader("📌 Dataset Preview")
-df = pd.read_csv("data/student_scores.csv")
+df = pd.read_csv("student_scores.csv")
 st.write(df.head())
